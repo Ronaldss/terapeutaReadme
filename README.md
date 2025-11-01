@@ -1,20 +1,17 @@
 # 🌸 Sistema de Agendamento - Terapeutas
 
-Um site simples, responsivo e intuitivo desenvolvido para que clientes possam **agendar consultas com a terapeuta Emanuella Silva** diretamente pelo link disponível em seu perfil do Instagram.
+Um site responsivo e intuitivo desenvolvido para que clientes possam **agendar consultas com a terapeuta Emanuella SS** diretamente pelo link disponível em seu perfil do Instagram.
 
 ## 💡 Sobre o Projeto
 
-O objetivo deste projeto é oferecer uma experiência de agendamento prática, acolhedora e acessível, refletindo o cuidado e a atenção que Emanuella Silva dedica aos seus atendimentos terapêuticos.
-
-O sistema foi desenvolvido utilizando **HTML, CSS e JavaScript puro**, garantindo leveza, desempenho e compatibilidade com dispositivos móveis.  
-O site está hospedado gratuitamente na **Vercel**, com integração para envio de agendamentos via **Google Sheets (Google Apps Script)**.
+O objetivo deste projeto é oferecer uma experiência de agendamento prática, acolhedora e acessível, refletindo o cuidado e a atenção que o terapeuta dedica aos seus atendimentos.
 
 ## ✨ Funcionalidades
 
 - 📅 **Agendamento simples e rápido:** o usuário seleciona o dia e o horário desejados para a consulta.  
 - 📲 **Design responsivo:** totalmente adaptável a celulares, tablets e computadores.  
 - 🧘‍♀️ **Interface acolhedora:** com paleta de cores suaves e elementos que transmitem calma e confiança.  
-- ☁️ **Integração com Google Sheets:** os dados dos agendamentos são enviados automaticamente para uma planilha via **requisição POST (Apps Script endpoint)**.  
+- ☁️ **Integração com Google Sheets:** os dados dos agendamentos são enviados com segurança e automaticamente para uma planilha via **requisição POST (Apps Script endpoint)**.  
 - 🔗 **Compatível com bio do Instagram:** pode ser acessado facilmente por meio de um link direto no perfil.
 
 ## 🛠️ Tecnologias Utilizadas
@@ -23,7 +20,7 @@ O site está hospedado gratuitamente na **Vercel**, com integração para envio 
 - **CSS3** — Estilo e responsividade  
 - **JavaScript (ES6+)** — Validação e envio dos dados  
 - **Google Apps Script** — Endpoint para registro dos agendamentos  
-- **Vercel** — Hospedagem gratuita e deploy automático  
+- **Vercel** — Hospedagem e deploy automático  
 
 ## 🚀 Como Publicar na Vercel
 
@@ -55,7 +52,7 @@ O site está hospedado gratuitamente na **Vercel**, com integração para envio 
    }
 
 4. Clique em Implantar → Nova implantação
-5. Escolha o tipo Aplicativo da Web, configure quem pode acessar como “Qualquer pessoa”
+5. Escolha o tipo Aplicativo da Web, configure as permissões de acesso a planilha
 6. Copie o link do endpoint gerado e cole no arquivo JavaScript do site (onde a requisição fetch() é feita).
 
 ---
@@ -67,6 +64,6 @@ Para dúvidas sobre o site ou suporte técnico, entre em contato com o desenvolv
 
 ## 💗 Créditos
 
-Desenvolvido por Ronald SS com dedicação e carinho, em apoio ao trabalho inspirador da terapeuta Emanuella Silva.
+Desenvolvido por Ronald SS com dedicação e carinho, em apoio ao trabalho inspirador da terapeuta Emanuella SS.
 
 > “Cuidar de si é o primeiro passo para transformar o mundo ao seu redor.” 🌿
